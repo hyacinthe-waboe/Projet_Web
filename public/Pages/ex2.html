@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="text/javascript" src="../js/script.js" defer></script>
+  <link rel="stylesheet" href="../CSS/style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <title>Impact CO2 - Comparateur</title>
+</head>
+
+<body class = "bg">
+  <header>
+    <h1>Mon Empreinte Carbone</h1>
+    <nav>
+      <ul>
+        <li><a href="../Index.html">Accueil</a></li>
+        <li><a href="ex1.html">Mon CO2</a></li>
+        <li class="C"><a href="ex2.html">Resultat</a></li>
+        <li><a href="sensibilisation.html">Sensibilisation</a></li>
+      </ul>
+    </nav>
+  </header>
+  <p class="animation"></p>
+
+  <p id="resultat" class="alerte">Un Français émet en moyenne 9,8 tonnes de CO₂ par an soit 188,46 kg de CO₂ par
+    semaine. Les experts estiment qu'il faudrait limiter ce
+    chiffre à 2 tonnes de CO₂ par an pour réussir à atteindre la neutralité carbone et à limiter le
+    réchauffement de la planète.</p>
+
+  <section class="iframe-container">
+    <section class="left-widget">
+      <p class="alerte1">Etiquette ⬇️</p>
+
+      <article id="ex1" class="widget">
+        <!-- iframe 1 sera inséré ici -->
+      </article>
+
+      <p class="alerte1">Ton score VS la moyenne ⬇️</p>
+      <canvas id="myChart"></canvas> <!-- Graphique 1 -->
+
+      <p class="alerte1">Ton score détaillé ⬇️</p>
+      <canvas id="myCharty"></canvas> <!-- Graphique 2 -->
+    </section>
+
+    <article id="ex2" class="widget">
+      <!-- iframe 2 sera inséré ici -->
+    </article>
+  </section>
+
+  <footer>
+    <p class="alerte">
+      Voici ta consommation, ton score est il desastreux pour l'environnement ? Pour te sensibiliser et avoir de bonnes
+      habitudes, je te conseille notre page
+      <a class="sensibilisation" href="sensibilisation.html">Sensibilisation</a> !!
+    </p>
+  </footer>
+
+
+</body>
+
+</html>
