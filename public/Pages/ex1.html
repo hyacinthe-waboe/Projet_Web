@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="../Javascript/script.js" defer></script>
+    <link rel="stylesheet" href="../CSS/style.css" />
+    <title>Empreinte Carbone</title>
+</head>
+
+<body class="bg">
+    <header>
+        <h1>Mon Empreinte Carbone</h1>
+        <nav>
+            <ul>
+                <li><a href="../Index.html">Accueil</a></li>
+                <li class="C"><a href="ex1.html">Mon CO2</a></li>
+                <li><a href="ex2.html">Resultat</a></li>
+                <li><a href="sensibilisation.html">Sensibilisation</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <form>
+        <h2>Transport</h2>
+        <article class="cadre">
+            <p>Ton moyen de transport favori :</p>
+            <select name="Transport1">
+                <option value="TGV">TGV</option>
+                <option value="Métro">Métro</option>
+                <option value="Bus (GNV)">Bus</option>
+                <option value="Vélo mécanique">Vélo</option>
+                <option value="Marche">Marche à pied</option>
+            </select>
+            <label>Nombre de trajets par semaine :</label>
+            <input type="number" name="nbrtrajet1" value="1" />
+            <label>Nombre de km par trajet :</label>
+            <input type="text" name="nbrkm1" placeholder="5 km par défaut" /><br /><br />
+        </article>
+
+        <article class="cadre">
+            <p>Ton deuxième choix de transport :</p>
+            <select name="Transport2">
+                <option value="TGV">TGV</option>
+                <option value="Métro">Métro</option>
+                <option value="Bus (GNV)">Bus</option>
+                <option value="Vélo mécanique">Vélo</option>
+                <option value="Marche">Marche à pied</option>
+            </select>
+            <label>Nombre de trajets par semaine :</label>
+            <input type="number" name="nbrtrajet2" value="1" />
+            <label>Nombre de km par trajet :</label>
+            <input type="text" name="nbrkm2" placeholder="5 km par défaut" /><br /><br />
+        </article>
+
+        <article class="cadre">
+            <p>Transport pour tes sorties :</p>
+            <select name="Transport3">
+                <option value="TGV">TGV</option>
+                <option value="Métro">Métro</option>
+                <option value="Bus (GNV)">Bus</option>
+                <option value="Vélo mécanique">Vélo</option>
+                <option value="Marche">Marche à pied</option>
+            </select>
+            <label>Nombre de trajets par semaine :</label>
+            <input type="number" name="nbrtrajet3" value="1" />
+            <label>Nombre de km par trajet :</label>
+            <input type="text" name="nbrkm3" placeholder="5 km par défaut" /><br /><br />
+        </article>
+
+        <article class="cadre">
+            <p>Transport pour le travail :</p>
+            <select name="Transport4">
+                <option value="TGV">TGV</option>
+                <option value="Métro">Métro</option>
+                <option value="Bus (GNV)">Bus</option>
+                <option value="Vélo mécanique">Vélo</option>
+                <option value="Marche">Marche à pied</option>
+            </select>
+            <label>Nombre de trajets par semaine :</label>
+            <input type="number" name="nbrtrajet4" value="1" />
+            <label>Nombre de km par trajet :</label>
+            <input type="text" name="nbrkm4" placeholder="5 km par défaut" /><br /><br />
+        </article>
+
+        <article class="cadre">
+            <p>Transport pour tes loisirs :</p>
+            <select name="Transport5">
+                <option value="TGV">TGV</option>
+                <option value="Métro">Métro</option>
+                <option value="Bus (GNV)">Bus</option>
+                <option value="Vélo mécanique">Vélo</option>
+                <option value="Marche">Marche à pied</option>
+            </select>
+            <label>Nombre de trajets par semaine :</label>
+            <input type="number" name="nbrtrajet5" value="1" />
+            <label>Nombre de km par trajet :</label>
+            <input type="text" name="nbrkm5" placeholder="5 km par défaut" /><br /><br />
+        </article>
+
+        <h2>Alimentation</h2>
+        <article class="cadre">
+            <p>Ton plat préféré :</p>
+            <select name="Aliment1">
+                <option value="Boeuf">Boeuf</option>
+                <option value="Porc">Porc</option>
+                <option value="Oeufs">Oeufs</option>
+                <option value="Saumon ou truite d'élevage (cru)">Saumon ou truite d'élevage (cru)</option>
+                <option value="Riz">Riz</option>
+            </select>
+            <label>Nombre de plats par semaine :</label>
+            <input type="number" name="plats1" value="1" />
+            <label>Nombre de g par plat :</label>
+            <input type="text" name="gram1" placeholder="500g par défaut" /><br /><br />
+        </article>
+
+        <article class="cadre">
+            <p>Ton plat de secours :</p>
+            <select name="Aliment2">
+                <option value="Boeuf">Boeuf</option>
+                <option value="Porc">Porc</option>
+                <option value="Oeufs">Oeufs</option>
+                <option value="Saumon ou truite d'élevage (cru)">Saumon ou truite d'élevage (cru)</option>
+                <option value="Riz">Riz</option>
+            </select>
+            <label>Nombre de plats par semaine :</label>
+            <input type="number" name="plats2" value="1" />
+            <label>Nombre de g par plat :</label>
+            <input type="text" name="gram2" placeholder="500g par défaut" /><br /><br />
+        </article>
+
+        <article class="cadre">
+            <p>Ton plat du week-end :</p>
+            <select name="Aliment3">
+                <option value="Boeuf">Boeuf</option>
+                <option value="Porc">Porc</option>
+                <option value="Oeufs">Oeufs</option>
+                <option value="Saumon ou truite d'élevage (cru)">Saumon ou truite d'élevage (cru)</option>
+                <option value="Riz">Riz</option>
+            </select>
+            <label>Nombre de plats par semaine :</label>
+            <input type="number" name="plats3" value="1" />
+            <label>Nombre de g par plat :</label>
+            <input type="text" name="gram3" placeholder="500g par défaut" /><br /><br />
+        </article>
+
+        <article class="cadre">
+            <p>Ton plat rapide :</p>
+            <select name="Aliment4">
+                <option value="Boeuf">Boeuf</option>
+                <option value="Porc">Porc</option>
+                <option value="Oeufs">Oeufs</option>
+                <option value="Saumon ou truite d'élevage (cru)">Saumon ou truite d'élevage (cru)</option>
+                <option value="Riz">Riz</option>
+            </select>
+            <label>Nombre de plats par semaine :</label>
+            <input type="number" name="plats4" value="1" />
+            <label>Nombre de g par plat :</label>
+            <input type="text" name="gram4" placeholder="500g par défaut" /><br /><br />
+        </article>
+
+        <article class="cadre">
+            <p>Ton plat spécial :</p>
+            <select name="Aliment5">
+                <option value="Boeuf">Boeuf</option>
+                <option value="Porc">Porc</option>
+                <option value="Oeufs">Oeufs</option>
+                <option value="Saumon ou truite d'élevage (cru)">Saumon ou truite d'élevage (cru)</option>
+                <option value="Riz">Riz</option>
+            </select>
+            <label>Nombre de plats par semaine :</label>
+            <input type="number" name="plats5" value="1" />
+            <label>Nombre de g par plat :</label>
+            <input type="text" name="gram5" placeholder="500g par défaut" /><br /><br />
+        </article>
+
+        <h2>Boisson</h2>
+        <article class="cadre">
+            <p>Ta boisson quotidienne :</p>
+            <select name="boisson1">
+                <option value="Eau du robinet">Eau du robinet</option>
+                <option value="Eau en bouteille">Eau en bouteille</option>
+                <option value="Soda">Soda</option>
+                <option value="Vin">Vin</option>
+                <option value="Thé">Thé</option>
+                <option value="Lait de vache">Lait de vache</option>
+            </select>
+            <label>Combien de litres par semaine :</label>
+            <input type="number" name="litre1" step="any" value="1" /><br /><br />
+        </article>
+
+        <article class="cadre">
+            <p>Ta boisson hebdomadaire :</p>
+            <select name="boisson2">
+                <option value="Eau du robinet">Eau du robinet</option>
+                <option value="Eau en bouteille">Eau en bouteille</option>
+                <option value="Soda">Soda</option>
+                <option value="Vin">Vin</option>
+                <option value="Thé">Thé</option>
+                <option value="Lait de vache">Lait de vache</option>
+            </select>
+            <label>Combien de litres par semaine :</label>
+            <input type="number" name="litre2" step="any" value="1" /><br /><br />
+        </article>
+
+        <article class="cadre">
+            <p>Ta boisson occasionnelle :</p>
+            <select name="boisson3">
+                <option value="Eau du robinet">Eau du robinet</option>
+                <option value="Eau en bouteille">Eau en bouteille</option>
+                <option value="Soda">Soda</option>
+                <option value="Vin">Vin</option>
+                <option value="Thé">Thé</option>
+                <option value="Lait de vache">Lait de vache</option>
+            </select>
+            <label>Combien de litres par semaine :</label>
+            <input type="number" name="litre3" step="any" value="1" /><br /><br />
+        </article>
+
+        <article class="cadre">
+            <p>Ta boisson festive :</p>
+            <select name="boisson4">
+                <option value="Eau du robinet">Eau du robinet</option>
+                <option value="Eau en bouteille">Eau en bouteille</option>
+                <option value="Soda">Soda</option>
+                <option value="Vin">Vin</option>
+                <option value="Thé">Thé</option>
+                <option value="Lait de vache">Lait de vache</option>
+            </select>
+            <label>Combien de litres par semaine :</label>
+            <input type="number" name="litre4" step="any" value="1" /><br /><br />
+        </article>
+
+        <article class="cadre">
+            <p>Ta boisson sportive :</p>
+            <select name="boisson5">
+                <option value="Eau du robinet">Eau du robinet</option>
+                <option value="Eau en bouteille">Eau en bouteille</option>
+                <option value="Soda">Soda</option>
+                <option value="Vin">Vin</option>
+                <option value="Thé">Thé</option>
+                <option value="Lait de vache">Lait de vache</option>
+            </select>
+            <label>Combien de litres par semaine :</label>
+            <input type="number" name="litre5" step="any" value="1" /><br /><br />
+        </article>
+
+        <article class="cadre">
+            <p>Ta boisson relaxante :</p>
+            <select name="boisson6">
+                <option value="Eau du robinet">Eau du robinet</option>
+                <option value="Eau en bouteille">Eau en bouteille</option>
+                <option value="Soda">Soda</option>
+                <option value="Vin">Vin</option>
+                <option value="Thé">Thé</option>
+                <option value="Lait de vache">Lait de vache</option>
+            </select>
+            <label>Combien de litres par semaine :</label>
+            <input type="number" name="litre6" step="any" value="1" /><br /><br />
+        </article>
+
+        <h2>Chauffage</h2>
+        <article class="cadre">
+            <p>Type de chauffage :</p>
+            <select name="Chauffage">
+                <option value="Chauffage au gaz">Chauffage au gaz</option>
+                <option value="Chauffage électrique">Chauffage électrique</option>
+                <option value="Chauffage avec une pompe à chaleur">Chauffage avec une pompe à chaleur</option>
+                <option value="Chauffage via un réseau de chaleur">Chauffage via un réseau de chaleur</option>
+            </select>
+            <label>Surface de l'habitation en m² :</label>
+            <input type="number" name="m2" placeholder="63 m2 par défaut" /><br /><br />
+        </article>
+
+        <h2>Numérique</h2>
+        <article class="cadre">
+            <p>Ton appareil principal :</p>
+            <select name="numerique1">
+                <option value="Smartphone">Smartphone</option>
+                <option value="Ordinateur fixe sans écran (particulier)">Ordinateur fixe sans écran (particulier)
+                </option>
+                <option value="Tablette">Tablette</option>
+                <option value="Ordinateur fixe sans écran (professionnel)">Ordinateur fixe sans écran (professionnel)
+                </option>
+            </select>
+            <label>Année d'utilisation :</label>
+            <input type="number" name="mat1" step="any" value="1" />
+        </article>
+
+        <article class="cadre">
+            <p>Ton appareil secondaire :</p>
+            <select name="numerique2">
+                <option value="Smartphone">Smartphone</option>
+                <option value="Ordinateur fixe sans écran (particulier)">Ordinateur fixe sans écran (particulier)
+                </option>
+                <option value="Tablette">Tablette</option>
+                <option value="Ordinateur fixe sans écran (professionnel)">Ordinateur fixe sans écran (professionnel)
+                </option>
+            </select>
+            <label>Année d'utilisation :</label>
+            <input type="number" name="mat2" step="any" value="1" />
+        </article>
+
+        <article class="cadre">
+            <p>Ton appareil occasionnel :</p>
+            <select name="numerique3">
+                <option value="Smartphone">Smartphone</option>
+                <option value="Ordinateur fixe sans écran (particulier)">Ordinateur fixe sans écran (particulier)
+                </option>
+                <option value="Tablette">Tablette</option>
+                <option value="Ordinateur fixe sans écran (professionnel)">Ordinateur fixe sans écran (professionnel)
+                </option>
+            </select>
+            <label>Année d'utilisation :</label>
+            <input type="number" name="mat3" step="any" value="1" />
+        </article>
+
+        <article class="cadre">
+            <p>Ton appareil professionnel :</p>
+            <select name="numerique4">
+                <option value="Smartphone">Smartphone</option>
+                <option value="Ordinateur fixe sans écran (particulier)">Ordinateur fixe sans écran (particulier)
+                </option>
+                <option value="Tablette">Tablette</option>
+                <option value="Ordinateur fixe sans écran (professionnel)">Ordinateur fixe sans écran (professionnel)
+                </option>
+            </select>
+            <label>Année d'utilisation :</label>
+            <input type="number" name="mat4" step="any" value="1" />
+        </article>
+
+        <input type="submit" value="Envoyer" />
+    </form>
+
+</body>
+
+</html>
