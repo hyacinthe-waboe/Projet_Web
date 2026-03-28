@@ -1,67 +1,21 @@
-![Build Status](https://gitlab.com/pages/plain-html/badges/master/build.svg)
+# Bienvenue sur le profil de Hyacinthe Waboe 🎓
+
+⚠️ **Information importante pour les jurys d'admission et recruteurs :**
+
+Si vous avez cliqué sur le lien présent sur mon CV, vous êtes au bon endroit ! Cependant, afin de faciliter la consultation de mes travaux, **l'intégralité de mon portfolio et de mes codes sources a été centralisée sur mon profil GitHub.**
+
+👉 **[Cliquez ici pour accéder à mon profil GitHub officiel : github.com/hyacinthe-waboe](https://github.com/hyacinthe-waboe)**
 
 ---
 
-Example plain HTML site using GitLab Pages.
+### 📂 Ce que vous trouverez sur mon GitHub :
+Vous y retrouverez en détail tous les projets techniques mentionnés dans mon dossier de candidature (Licence MIASHS) :
 
-Learn more about GitLab Pages at https://pages.gitlab.io and the official
-documentation https://docs.gitlab.com/ce/user/project/pages/.
+* 🎮 **Moteur de jeu Auto-Battler (C++)** : Architecture modulaire, POO avancée (Héritage, Polymorphisme, Design Pattern Factory), gestion de la mémoire et Makefile.
+* 🚗 **Système de Parking (Python)** : Application développée from scratch avec interface graphique (CustomTkinter), respectant l'architecture MVC et modélisée en UML.
+* 📊 **Analyse Multidimensionnelle (R)** : Traitement de données sportives via des méthodes factorielles (ACP, AFCM) et visualisation avancée.
+* 🌐 **Développement Web & API** : Conception d'interfaces interactives (HTML5, CSS3, JS) connectées à des API externes.
 
----
+Merci pour le temps que vous accordez à l'étude de ma candidature.
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
-
-- [GitLab CI](#gitlab-ci)
-- [GitLab User or Group Pages](#gitlab-user-or-group-pages)
-- [Did you fork this project?](#did-you-fork-this-project)
-- [Troubleshooting](#troubleshooting)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-## GitLab CI
-
-This project's static Pages are built by [GitLab CI][ci], following the steps
-defined in [`.gitlab-ci.yml`](.gitlab-ci.yml):
-
-```
-image: alpine:latest
-
-pages:
-  stage: deploy
-  script:
-  - echo 'Nothing to do...'
-  artifacts:
-    paths:
-    - public
-  only:
-  - master
-```
-
-The above example expects to put all your HTML files in the `public/` directory.
-
-## GitLab User or Group Pages
-
-To use this project as your user/group website, you will need one additional
-step: just rename your project to `namespace.gitlab.io`, where `namespace` is
-your `username` or `groupname`. This can be done by navigating to your
-project's **Settings**.
-
-Read more about [user/group Pages][userpages] and [project Pages][projpages].
-
-## Did you fork this project?
-
-If you forked this project for your own use, please go to your project's
-**Settings** and remove the forking relationship, which won't be necessary
-unless you want to contribute back to the upstream project.
-
-## Troubleshooting
-
-1. CSS is missing! That means that you have wrongly set up the CSS URL in your
-   HTML files. Have a look at the [index.html] for an example.
-
-[ci]: https://about.gitlab.com/gitlab-ci/
-[index.html]: https://gitlab.com/pages/plain-html/blob/master/public/index.html
-[userpages]: https://docs.gitlab.com/ce/user/project/pages/introduction.html#user-or-group-pages
-[projpages]: https://docs.gitlab.com/ce/user/project/pages/introduction.html#project-pages
+📫 **Me contacter :** [waboehyacinthe7@gmail.com](mailto:waboehyacinthe7@gmail.com)
