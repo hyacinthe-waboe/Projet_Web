@@ -1,29 +1,50 @@
-# Mon Empreinte Carbone
+<h1 align="center">🌍 Mon Empreinte Carbone</h1>
 
-Application web de sensibilisation permettant d'estimer une empreinte carbone hebdomadaire à partir des habitudes de l'utilisateur.
+<p align="center">
+  <strong>Comprendre son impact pour commencer à le réduire.</strong>
+</p>
 
-Ce projet a été réalisé en groupe pendant la deuxième année de Licence MIASHS à l'Université Toulouse - Jean Jaurès. Les facteurs d'émission sont récupérés depuis l'API publique **Impact CO2** de l'ADEME.
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+  <img src="https://img.shields.io/badge/Chart.js-FF6384?style=for-the-badge&logo=chartdotjs&logoColor=white" alt="Chart.js">
+</p>
 
-## Fonctionnalités
+## 🌱 Le projet
 
-- questionnaire réparti en cinq thèmes : transport, alimentation, boissons, chauffage et numérique ;
-- récupération des facteurs d'émission depuis l'API Impact CO2 ;
-- calcul d'un résultat global et d'un détail par catégorie ;
-- transmission des résultats entre les pages avec `localStorage` ;
-- graphiques comparatifs générés avec Chart.js ;
-- comparaisons visuelles proposées par les widgets Impact CO2 ;
-- page de conseils pour mieux comprendre et réduire son impact.
+Cette application web estime l'empreinte carbone hebdomadaire d'une personne à partir de ses habitudes, puis présente le résultat de manière claire et visuelle.
 
-## Technologies
+Elle a été réalisée en groupe pendant notre deuxième année de **Licence MIASHS** à l'Université Toulouse - Jean Jaurès. Les facteurs d'émission proviennent de l'API publique **Impact CO2** de l'ADEME.
 
-- HTML5 ;
-- CSS3 ;
-- JavaScript sans framework ;
-- Chart.js ;
-- API REST Impact CO2 ;
-- GitLab Pages pour le déploiement d'origine.
+## ✨ Le parcours utilisateur
 
-## Structure
+1. 📝 répondre à un questionnaire sur ses habitudes ;
+2. 🌐 récupérer les facteurs d'émission auprès d'Impact CO2 ;
+3. 🧮 calculer l'empreinte totale et le détail par catégorie ;
+4. 📊 découvrir ses résultats avec des graphiques ;
+5. 💡 consulter des comparaisons et des conseils de sensibilisation.
+
+Les cinq catégories étudiées sont :
+
+- 🚗 transport ;
+- 🍽️ alimentation ;
+- 🥤 boissons ;
+- 🔥 chauffage ;
+- 💻 numérique.
+
+## 🛠️ Technologies
+
+| Besoin | Solution |
+|---|---|
+| Structure | HTML5 |
+| Mise en page | CSS3 et animations |
+| Calculs et interactions | JavaScript sans framework |
+| Visualisation | Chart.js |
+| Facteurs d'émission | API REST Impact CO2 |
+| Passage des résultats | `localStorage` |
+
+## 📂 Structure
 
 ```text
 public/
@@ -33,35 +54,37 @@ public/
 │   ├── ex2.html               # Résultats et graphiques
 │   └── sensibilisation.html    # Informations et conseils
 ├── Javascript/script.js       # Calculs, API et graphiques
-├── CSS/style.css              # Styles de l'application
+├── CSS/style.css              # Identité visuelle
 └── Image/                     # Illustrations
 ```
 
-## Lancer le projet
+## 🚀 Lancer l'application
 
-Le projet ne demande aucune installation de dépendance. Un petit serveur local est recommandé pour éviter les restrictions du navigateur :
+Aucune dépendance n'est à installer. Depuis la racine :
 
 ```bash
 python -m http.server 8000 --directory public
 ```
 
-Ouvrir ensuite :
+Puis ouvrir :
 
 ```text
 http://localhost:8000/Index.html
 ```
 
-Une connexion Internet est nécessaire pour les appels à Impact CO2 et le chargement de Chart.js.
+Une connexion Internet est nécessaire pour utiliser Impact CO2 et charger Chart.js.
 
-## Limites actuelles
+## 🚧 Limites actuelles
 
-- les calculs dépendent de la disponibilité de services externes ;
+- les calculs dépendent de services externes ;
 - les résultats sont conservés uniquement dans le navigateur ;
-- le projet ne possède pas encore de tests automatisés.
+- aucune suite de tests automatisés n'est encore présente.
 
-## Équipe
+## 👥 Équipe
 
 - Rubens Hasler
 - Hyacinthe Waboe
 - Olti Mjeku
 - Ismael Cabrera Belmar
+
+<p align="center"><em>Un premier projet web pour apprendre en construisant quelque chose d'utile. 🌿</em></p>
